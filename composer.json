@@ -1,0 +1,21 @@
+{
+    "name": "mecha/binary-tree",
+    "description": "A configurable and extendable PHP binary tree library.",
+    "keywords": ["binary", "tree", "comparable", "node"],
+    "version": "0.0",
+    "authors": [
+        {
+            "name": "Miguel Muscat",
+            "email": "miguelmuscat93@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "mecha/comparable": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mecha\\BinaryTree\\": "src"
+        }
+    }
+}
