@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.3",
-        "mecha/comparable": "~0.1"
+        "mecha/comparable-interop": "~0.1"
     },
     "autoload": {
         "psr-4": {
