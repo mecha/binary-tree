@@ -27,6 +27,9 @@
 
 namespace Mecha\BinaryTree\Event;
 
+use \DateTime;
+use \Mecha\BinaryTree\Node\NodeInterface;
+
 /**
  * Generic interface for a node event.
  *
@@ -38,14 +41,14 @@ interface EventInterface
     /**
      * Gets the node related to the event.
      *
-     * @return \Mecha\BinaryTree\Node\NodeInterface The node instance.
+     * @return NodeInterface The node instance.
      */
     public function getNode();
 
     /**
      * Gets the time of the event.
      *
-     * @return \DateTime A DateTime instance,
+     * @return DateTime A DateTime instance,
      */
     public function getTime();
 
