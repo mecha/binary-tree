@@ -15,6 +15,7 @@ interface ReadableNodeInterface
     /**
      * Gets the node's value.
      *
+     * @since [*next-version*]
      * @return ComparableInterface This node's value.
      */
     public function getValue();

@@ -13,6 +13,7 @@ interface ChildAwareNodeInterface
     /**
      * Gets the left child node, if any.
      *
+     * @since [*next-version*]
      * @return ReadableNodeInterface|null The left child node if it exists or null if not.
      */
     public function getLeftChild();
@@ -20,6 +21,7 @@ interface ChildAwareNodeInterface
     /**
      * Gets the right child node, if any.
      *
+     * @since [*next-version*]
      * @return ReadableNodeInterface|null The right child node if it exists or null if not.
      */
     public function getRightChild();

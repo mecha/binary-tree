@@ -12,7 +12,8 @@ interface ParentAwareNodeInterface
 
     /**
      * Gets the parent node, if any.
-     * 
+     *
+     * @since [*next-version*]
      * @return ParentAwareNodeInterface|null The parent node if it exists or null if not.
      */
     public function getParent();
