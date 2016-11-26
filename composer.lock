@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e5492c4d3bbe2979475d1abc53fb0408",
+    "content-hash": "0c4a1dd42cd625ea56dc82311b173d0f",
+    "packages": [
+        {
+            "name": "mecha/comparable-interop",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mecha/comparable-interop.git",
+                "reference": "5a05c0a69fdc623b4eacbde2daca9d6c958c3931"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mecha/comparable-interop/zipball/5a05c0a69fdc623b4eacbde2daca9d6c958c3931",
+                "reference": "5a05c0a69fdc623b4eacbde2daca9d6c958c3931",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mecha\\ComparableInterop\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miguel Muscat",
+                    "email": "miguelmuscat93@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides a standard for comparable objects to achieve interoperability",
+            "keywords": [
+                "comparable",
+                "compare",
+                "interface",
+                "interop"
+            ],
+            "time": "2016-04-15 12:21:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}
