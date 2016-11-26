@@ -2,6 +2,8 @@
     "name": "dhii/binary-tree",
     "description": "A configurable and extendable PHP binary tree library.",
     "keywords": ["binary", "tree", "comparable", "node"],
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Dhii Team",
