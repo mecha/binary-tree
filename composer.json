@@ -14,6 +14,10 @@
         "php": ">=5.3",
         "mecha/comparable-interop": "~0.1"
     },
+    "require-dev": {
+        "dhii/php-cs-fixer-config": "dev-php-5.3",
+        "phpunit/phpunit": "^4.8"
+    },
     "autoload": {
         "psr-4": {
             "Dhii\\BinaryTree\\": "src"
