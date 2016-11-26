@@ -1,11 +1,11 @@
 {
-    "name": "mecha/binary-tree",
+    "name": "dhii/binary-tree",
     "description": "A configurable and extendable PHP binary tree library.",
     "keywords": ["binary", "tree", "comparable", "node"],
     "authors": [
         {
-            "name": "Miguel Muscat",
-            "email": "miguelmuscat93@gmail.com"
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mecha\\BinaryTree\\": "src"
+            "Dhii\\BinaryTree\\": "src"
         }
     }
 }
